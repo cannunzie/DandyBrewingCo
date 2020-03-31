@@ -1,14 +1,14 @@
 <!DOCTYPE html >
 <html lang = "en - us ">
 <head>
-
     <meta charset="utf - 8 ">
     <meta name = "Parry Sobti ,Caleb Annunziello,Epson Ronquillo,Pawandeep Singh Grewal" content = "Dandy Brewing company all products
     and services info ">
     <title>Dandy Brewing company </title>
-    <link rel = "stylesheet" href="mainPage.css">
+    <link rel = "stylesheet" href="css/styles.css">
+    <link rel = "stylesheet"  href = "css/ageRestriction.css">
+    <script src="js/ageRestriction.js"></script>
 </head>
-
 <body>
     <p class ="club">The</p>
     <header>DANDY</header>
@@ -24,7 +24,17 @@
              <li><a href = "contact.html">Contact US </a></li>
          </ul>
      </nav>
-     
+     <div class="popup" onclick="myFunction()">Click me!
+        <div class="popuptext" id="myPopup">
+            <h1>Welcome to the Dandy Brewing Company </h1>
+            <h2>Please enter your age</h2>
+
+            <input type = "text" value = ""  id = "age">
+            <input type = "button" value = "Submit" id = "submit">
+            <input type = "button" value = "clear" id = "erase">
+            <p id = "display"></p>
+        </div>
+    </div>
 
 
                                                    <!--   THE SLIDE SHOW!!!! JavaScript code in mainPage.js  -->

@@ -8,7 +8,7 @@ function call(num){
     num = age.value
     if(num>=18){
     var ut = "Click here to enter ";
-    var open = ut.link("mainPage.html");
+    var open = ut.link("index.html");
 
     document.getElementById("display").innerHTML =  open;
 
@@ -42,3 +42,9 @@ function erase(){
 
 button.addEventListener("click",submit);
 clean.addEventListener("click",erase);
+
+// When the user clicks on <div>, open the popup
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  }
